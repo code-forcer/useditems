@@ -17,7 +17,7 @@ const Checkout = () => {
   const [matricNumber, setMatricNumber] = useState('');
   const [phoneNumber, setPhoneNumber] = useState(''); // Add phone number
   const [useDispatchRider, setUseDispatchRider] = useState(false);
-  const [confirmStolenGoods, setConfirmStolenGoods] = useState(false);
+  const [confirmStolenGoods, setConfirmStolenGoods] = useState(true);
  const [totalPrice, setTotalPrice] = useState(0);
 const router = useRouter();
 const { itemId } = router.query;
