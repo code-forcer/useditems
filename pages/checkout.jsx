@@ -168,15 +168,9 @@ useEffect(() => {
           </label>
 
           {/* Confirm item is not stolen */}
-          <label className={styles.checkoutOptions}>
-            <input
-              type="checkbox"
-              checked={confirmStolenGoods}
-              onChange={() => setConfirmStolenGoods(!confirmStolenGoods)}
-              required
-            />
-           <h1>I confirm that this item is not a stolen good.</h1>
-          </label>
+          
+           <h1>The seller confirmed that this item is not a stolen good.</h1>
+          
 
           <h3>Total Price: <span style={{ color: '#28a745' }}>&#8358;{totalPrice}</span></h3>
 
