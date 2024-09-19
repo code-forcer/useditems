@@ -1,0 +1,47 @@
+/* styles/ProfileSidebar.module.css */
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background: #f4f4f4;
+    width:100%;
+    /* Adjust width as needed */
+}
+
+.profileInfo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.profileInfo span{
+    color: #04ea;
+    font-weight: bold;
+}
+
+.profileImage {
+    width: 60px;
+    /* Adjust size as needed */
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid #04ea;
+    margin-right: 15px;
+}
+
+.profileDetails {
+    display: flex;
+    flex-direction: column;
+}
+
+.profileName {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.profileEmail,
+.profileRole {
+    font-size: 14px;
+    color: #666;
+}
+
+/* Add any additional styles for other sidebar content */

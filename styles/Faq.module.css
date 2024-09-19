@@ -1,0 +1,31 @@
+.faqContainer {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 8px;
+}
+
+.faqTitle {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: #222;
+    font-weight: bold;
+}
+
+.faqItem {
+    margin-bottom: 20px;
+}
+
+.faqQuestion {
+    font-size: 24px;
+    color: #0ea4ff;
+    margin-bottom: 10px;
+}
+
+.faqAnswer {
+    font-size: 18px;
+    color: #333;
+    line-height: 1.6;
+}

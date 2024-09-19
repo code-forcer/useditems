@@ -1,0 +1,38 @@
+/* styles/WhatsAppButton.module.css */
+
+.whatsappButton {
+    position: fixed;
+    bottom: 20px;
+    /* Distance from the bottom */
+    right: 20px;
+    /* Distance from the right */
+    z-index: 1000;
+    /* To ensure it is above other content */
+    animation: glow 1.5s infinite alternate;
+}
+
+.whatsappButton{
+    margin: 0 10px;
+    color:  #0ea4ff;
+    font-size: 80px;
+    transition: color 0.3s ease;
+    background: none;
+    /* Make it circular */
+    /* Optional shadow for styling */
+}
+
+.whatsappButton:hover {
+    color: #25D366;
+}
+/* Keyframes for the glowing effect using a pseudo-element */
+@keyframes glow {
+    0% {
+        filter: brightness(1);
+        /* Normal brightness */
+    }
+
+    100% {
+        filter: brightness(1.5);
+        /* Increased brightness for glowing effect */
+    }
+}

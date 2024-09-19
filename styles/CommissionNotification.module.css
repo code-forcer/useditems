@@ -1,0 +1,9 @@
+.notification {
+    color: #222;
+    font-size: 16px;
+    margin-top: 10px;
+    font-style: italic;
+}
+.notification strong{
+    color: #ce1212;
+}

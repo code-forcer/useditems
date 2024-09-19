@@ -1,0 +1,128 @@
+.authContainer {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  font-family: 'Oswald';
+  border: 1px solid #ddd;
+  background-color: #f4f4f4;
+}
+.authContainer .title{
+  font-size: 30px;
+  text-decoration: underline;
+}
+.authForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.authInput {
+  margin-bottom: 15px;
+  padding: 10px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.authButton {
+  padding: 10px;
+  background-color: #0ea4ff;
+  color: white;
+  border: none;
+  width: 100%;
+  cursor: pointer;
+}
+
+.authButton:hover {
+  background-color: #0ea;
+}
+
+.errorMessage {
+  color: red;
+  margin-bottom: 15px;
+}
+
+/* Admin Section Styles */
+.adminSection {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.adminSection h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.itemList {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.itemCard {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.itemCard h3 {
+  margin: 0;
+  font-size: 20px;
+  color: #333;
+}
+
+.itemCard p {
+  margin: 5px 0;
+  font-size: 16px;
+  color: #666;
+}
+
+.itemCard .itemImage {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin: 10px 0;
+}
+
+.deleteButton {
+  background-color: #e74c3c;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.deleteButton:hover {
+  background-color: #c0392b;
+}
+
+.deleteButton:focus {
+  outline: none;
+}
+
+.itemCard .price {
+  font-weight: bold;
+  color: #333;
+}
+.kycButton{
+  background-color: #e74c3c;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+

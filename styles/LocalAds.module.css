@@ -1,0 +1,99 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.title {
+    text-align: center;
+    font-size: 32px;
+    color: #0ea4ff;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+
+.adForm {
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.inputGroup {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputGroup .input,
+.textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.inputGroup input[type="file"] {
+    border: none;
+}
+
+.inputGroup textarea {
+    resize: vertical;
+}
+
+.submitButton {
+    background-color: #0ea4ff;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submitButton:hover {
+    background-color: #007bcc;
+}
+
+.adsGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.adCard {
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.adImage {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.adTitle {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.adDescription {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.adContact {
+    font-size: 14px;
+    font-weight: bold;
+    color: #0ea4ff;
+}
+.inputGroup label{
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: underline;
+}
