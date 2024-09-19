@@ -160,6 +160,7 @@ useEffect(() => {
           <label className={styles.checkoutOptions}>
             <input
               type="checkbox"
+              required 
               checked={useDispatchRider}
               onChange={() => setUseDispatchRider(!useDispatchRider)}
             />
