@@ -4,6 +4,8 @@ import { useState, useEffect } from 'react';
 import styles from '../styles/Header.module.css';
 import ThemeToggle from './ThemeToggle';
 
+import WhatsAppButton from '@/components/WhatsAppButton';
+
 const Header = () => {
   const [searchQuery, setSearchQuery] = useState('');
   const [user, setUser] = useState(null);
