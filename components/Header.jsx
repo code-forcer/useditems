@@ -111,6 +111,9 @@ const Header = () => {
         </form>
       </div>
       <ThemeToggle />
+      
+          {/* whatapp icon link */}
+          <WhatsAppButton/>
     </header>
   );
 };
