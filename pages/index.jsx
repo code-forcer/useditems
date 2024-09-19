@@ -8,7 +8,6 @@ import GetAppSection from '@/components/GetAppSection';
 import PopularItemsSection from '@/components/PopularItemsSection';
 import DisplayAd from '@/components/DisplayAd';
 import TestimonialCarousel from '@/components/TestimonialCarousel';
-import WhatsAppButton from '@/components/WhatsAppButton';
 import FaqAccordion from '@/components/FaqAccordion';
 const Home = () => {
   const slides = [
@@ -98,8 +97,6 @@ const Home = () => {
           {/* Pagination */}
           <PopularItemsSection/>
           {/* ends here */}
-          {/* whatapp icon link */}
-          <WhatsAppButton/>
           {/* Display ads */}
           <DisplayAd ads={ads}/>
           {/* ends display ads */}
